@@ -1,0 +1,48 @@
+.chat-header-info {
+  height: 10vh;
+}
+.chat-header-info-user {
+  display: flex;
+}
+.info-avatar-user {
+  height: 10vh;
+}
+.info-avatar-user:focus {
+  background-color: #ffffff;
+}
+.info-avatar-user:hover {
+  background-color: #ffffff;
+}
+.info-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.info-desc-name {
+  font-weight: bold;
+  font-size: 18px;
+}
+/* Style Group */
+.chat-header-info-group {
+  display: flex;
+}
+.info-avatar-group {
+  height: 10vh;
+}
+.info-avatar-group:focus {
+  background-color: #ffffff;
+}
+.info-avatar-group:hover {
+  background-color: #ffffff;
+}
+.info-desc-members {
+  margin-left: -1.2em;
+}
+.info-desc-members:focus {
+  background-color: #ffffff;
+  color: #006ffd;
+}
+.info-desc-members:hover {
+  background-color: #ffffff;
+  color: #006ffd;
+}

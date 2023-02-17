@@ -1,0 +1,68 @@
+.main-tab {
+  background-color: #0091ff;
+  min-width: 50px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.btn-avatar {
+  background-color: #0091ff;
+  height: 10vh;
+  width: 100%;
+  border: none;
+  border-radius: 100%;
+}
+.btn-avatar:hover {
+  background-color: #0091ff;
+}
+.btn-avatar:focus {
+  background-color: #0091ff;
+}
+.btn-menu {
+  background-color: #0091ff;
+  height: 10vh;
+  width: 100%;
+  border: none;
+}
+.btn-menu:hover {
+  background-color: #0082e5;
+}
+.btn-menu:focus {
+  background-color: #0082e5;
+}
+
+.menu {
+  border-radius: 6px;
+  position: absolute;
+  left: 100%;
+  z-index: 10;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+}
+
+.menu span {
+  font-size: 16px;
+}
+
+.menu Button:hover {
+  background-color: #f5f5f5;
+}
+
+.menu-info {
+  width: 250px;
+  top: -3rem;
+}
+
+.menu-info-header span {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0.4rem;
+}
+
+.menu-info-header:hover {
+  background-color: white;
+}
+
+.menu-setting {
+  bottom: -2rem;
+}
